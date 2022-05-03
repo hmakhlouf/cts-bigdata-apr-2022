@@ -66,3 +66,47 @@ wget -P $HADOOP_HOME/etc/hadoop/ https://raw.githubusercontent.com/nodesense/kaf
 wget -P $HADOOP_HOME/etc/hadoop/ https://raw.githubusercontent.com/nodesense/kafka-workshop/master/hadoop/yarn-site.xml
 ```
 
+Generate keygen so that hadoop can login  local ssh command
+
+```
+ssh-keygen -t rsa -P ""
+
+cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
+```
+
+reboot system
+
+```
+reboot 
+```
+
+hadoop File System format and setup , for learning purpose, not good for prodution
+
+```
+ssh localhost
+
+sudo mkdir -p /data/hdfs
+
+sudo chmod -R 777 /data/hdfs
+
+hdfs namenode -format
+
+```
+
+starting hadoop
+
+```
+start-all.sh
+```
+
+to check hadoop is running or not
+
+```
+jps
+```
+
+try this in ubuntu browser
+
+http://localhost:50070
+
+
