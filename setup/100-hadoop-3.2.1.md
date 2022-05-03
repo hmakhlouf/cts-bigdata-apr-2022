@@ -1,5 +1,5 @@
 ## do not attempt this, work in progress for future class
-
+```
 1  wget https://downloads.apache.org/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz
     2  wget https://archive.apache.org/dist/hadoop/common/hadoop-3.2.1/hadoop-3.2.1.tar.gz
     3  tar xzf hadoop-3.2.1.tar.gz
@@ -39,4 +39,4 @@
 
 
 Ref: https://phoenixnap.com/kb/install-hadoop-ubuntu
-
+```
