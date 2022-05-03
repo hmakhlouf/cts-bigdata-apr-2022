@@ -1,17 +1,18 @@
  
-
+```
 wget https://archive.apache.org/dist/hadoop/common/hadoop-2.7.7/hadoop-2.7.7.tar.gz
 
 
 tar xf hadoop-2.7.7.tar.gz
+```
 
 below to be copied into .bashrc
 
-
+```
 export HADOOP_HOME=/home/ubuntu/hadoop-2.7.7
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 export CLASSPATH=$CLASSPATH:$HADOOP_HOME/lib/*:.
-
+```
 
 add below to /etc/environment file 
 
