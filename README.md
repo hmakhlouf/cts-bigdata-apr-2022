@@ -1,3 +1,22 @@
+## Start Hadoop
+
+Do whenever you restart ubuntu/window system restart/system start
+
+Start hadoop cluster
+
+```
+ssh localhost
+
+start-all.sh
+
+jps 
+```
+
+ensure jps listing DataNode, NameNode, SecondaryNameNode, ResourceManager running..
+
+
+
+
 ## Start Jupyter
 
 ```
