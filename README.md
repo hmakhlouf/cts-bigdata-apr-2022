@@ -1,3 +1,14 @@
+## Start Jupyter
+
+```
+jupyterlab --no-browser --ip="0.0.0.0"
+
+```
+
+Look for url   starts with ubuntu-virtual-machine, copy and paste into google chrome on windows
+
+
+## Git pull from original branch
 
 ```
 git add  .
