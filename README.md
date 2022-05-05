@@ -7,7 +7,7 @@ Start hadoop cluster
 ```
 ssh localhost
 
-start-all.sh
+$HADOOP_HOME/sbin/start-all.sh
 
 jps 
 ```
